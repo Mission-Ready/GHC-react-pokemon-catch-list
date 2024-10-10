@@ -10,6 +10,11 @@
 // database connection
 // set up the connection to the database using mysql2
 
+
+
+
+
+
 // routes
 // set up your routes here using the get method
 

@@ -1,16 +1,14 @@
 import React from "react";
+import styles from "./PokemonCard.module.css"
 
-// remember to give the component the parameters, props
 export default function PokemonCard(props) {
   return (
-    <div className="pokemon-card-container">
+    <div className={styles.pokemonCardContainer}>
       <div className="left-section">
-        {/* image of pokemon goes here - use className="pokemon-image" for the styling to work */}
-        <img src={props.src} className="pokemon-image" alt={props.name} />
+        <img src={props.src} className={styles.pokemonImage} alt={props.name} />
       </div>
 
-      <div className="right-section">
-        {/* Place pokemon details here- use one h1 for the name, and the rest as h3s */}
+      <div className={styles.rightSection}>
         <h1>Name: {props.name}</h1>
         <h3>Type: {props.type}</h3>
         <h3>Weight: {props.weight}kg</h3>

@@ -1,0 +1,33 @@
+.pokemonCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+  padding: 2rem 7rem;
+  margin-bottom: 2rem;
+  width: 60%;
+  max-width: 60rem;
+  background-color: white;
+  border-radius: 0.7rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 0.5s ease-in-out;
+  font-family: "Press Start 2P", cursive;
+}
+
+.pokemonCardContainer:hover {
+  box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
+  background-color: rgb(255, 234, 0);
+}
+
+.pokemonImage {
+  max-height: 10rem;
+}
+
+.rightSection > h3 {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(167, 167, 167, 0.2);
+  text-align: left;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.9rem;
+}
